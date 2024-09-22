@@ -79,7 +79,7 @@ const KanbanBoard = ({ tickets, users, grouping, ordering }) => {
                       <img src="/Untitled/icons_FEtask/3 dot menu.svg" alt="No priority Logo" className="header-logo" />
                     )}
                     {group === 'Urgent' && (
-                      <img src="/Untitled/icons_FEtask/SVG - Urgent priority colour.svg" alt="Urgent Logo" className="header-logo" />
+                      <img src="/Untitled/icons_FEtask/SVG - Urgent priority grey.svg" alt="Urgent Logo" className="header-logo" />
                     )}
                     {group === 'High' && (
                       <img src="/Untitled/icons_FEtask/Img - High Priority.svg" alt="High Logo" className="header-logo" />

@@ -27,7 +27,15 @@
   padding: 0 7px;
 }
 .log-right {
-  padding: 0 9px;
+  padding: 0 7px;
+}
+
+.logo {
+  height: 18px;
+  width: 18px;
+  object-fit: cover;
+  padding-top: 3px;
+  padding-right: 2px;
 }
 .dropdown-content {
   position: absolute;

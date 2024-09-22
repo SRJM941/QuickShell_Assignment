@@ -42,7 +42,7 @@ const Dropdown = ({ grouping, setGrouping, ordering, setOrdering }) => {
         </span>
         <span>Display</span>
         <span className="logo-right">
-        <img src="/Untitled/icons_FEtask/Down.svg" alt="Logo 2" />
+        <img className="logo" src="/Untitled/icons_FEtask/icons8-dropdown-50.png" alt="Logo 2" />
         </span>
       </div>
 
