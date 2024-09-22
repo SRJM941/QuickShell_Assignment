@@ -1,22 +1,4 @@
-// import React from 'react';
-// import './TaskCard.css';
 
-// const TaskCard = ({ ticket }) => {
-//   return (
-    
-//     <div className="task-card">
-    
-//       <input type="radio" checked={ticket.status === 'Done'} readOnly />
-//       <div>
-//         <h5>{ticket.title}</h5>
-//         <p>ID: {ticket.id}</p>
-//         <p>Tags: {ticket.tag.join(', ')}</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default TaskCard;
 import React from 'react';
 import './TaskCard.css';
 

@@ -2,14 +2,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 18px;
   background-color: #F4F5F9;
   height: 100vh;
 }
 
 .kanban-column {
   flex: 1 1 200px;
-  padding: 10px;
+  padding: 8px;
   position: relative;
 }
 
@@ -17,19 +17,19 @@
   display: flex;
   align-items: center; /* Ensure everything aligns vertically */
   justify-content: space-between;
-  gap: 10px; /* Small gap between the items */
+  gap: 7px; /* Small gap between the items */
   margin-bottom: 10px;
 }
 .name{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 10px; /* Small gap between the items */
+  gap: 9px; /* Small gap between the items */
   margin-bottom: 10px;
 }
 
 .column-header h2 {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .task-count {

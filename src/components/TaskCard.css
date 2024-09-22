@@ -1,14 +1,14 @@
 .task-card {
   display: flex;
   flex-direction: column;
-  padding: 8px;
+  padding: 7px;
   background-color: white;
   border: 1px solid #dee2e6;
   border-radius: 2px;
   margin-bottom: 10px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   width: 98%;
-  height: 120px;
+  height: 110px;
   transition: box-shadow 0.2s;
 }
 
@@ -38,15 +38,19 @@
 
 .task-title {
   margin: 0; /* Remove margin to avoid extra space */
-  font-size: 1.1em;
-  font-weight: 00;
+  font-size: 0.7em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 
 .ticket-details {
   display: flex;
-  align-items: flex-end; /* Center logo and tags vertically */
-  justify-content: flex-start; /* Align items to the start */
-  margin-top: 10px; /* Space above details */
+  align-items: flex-end; 
+  justify-content: flex-start; 
+  margin-top: 10px;
   
 }
 

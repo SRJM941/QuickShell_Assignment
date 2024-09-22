@@ -6,8 +6,8 @@
   top: 0;
   left: 1%;
   display: inline-block;
-  width: 7%; /* Width of the container */
-  padding: 10px;
+  width: 10%; /* Width of the container */
+  padding: 8px;
   background-color: white;
 }
 
@@ -23,10 +23,12 @@
   border: 1px solid #ccc;
 }
 
-.logo-left, .logo-right {
+.logo-left {
   padding: 0 7px;
 }
-
+.log-right {
+  padding: 0 9px;
+}
 .dropdown-content {
   position: absolute;
   top: 100%;

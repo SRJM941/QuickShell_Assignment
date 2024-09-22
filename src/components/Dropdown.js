@@ -1,27 +1,4 @@
-/*
-import React from 'react';
-import './Dropdown.css';
 
-const Dropdown = ({ grouping, setGrouping, ordering, setOrdering }) => {
-  return (
-    <div className="dropdown-container">
-      <label>Grouping</label>
-      <select value={grouping} onChange={(e) => setGrouping(e.target.value)}>
-        <option value="status">By Status</option>
-        <option value="user">By User</option>
-        <option value="priority">By Priority</option>
-      </select>
-      <label>Ordering</label>
-      <select value={ordering} onChange={(e) => setOrdering(e.target.value)}>
-        <option value="priority">By Priority</option>
-        <option value="title">By Title</option>
-      </select>
-    </div>
-  );
-};
-
-export default Dropdown;
-*/
 import React, { useState, useRef, useEffect } from 'react';
 import './Dropdown.css';
 
