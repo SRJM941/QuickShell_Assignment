@@ -1,0 +1,85 @@
+
+
+/* Container for the entire dropdown */
+.dropdown-container {
+  position: relative;
+  top: 0;
+  left: 1%;
+  display: inline-block;
+  width: 7%; /* Width of the container */
+  padding: 10px;
+  background-color: white;
+}
+
+.dropdown-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+}
+
+.logo-left, .logo-right {
+  padding: 0 7px;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  width: 150%; /* Set width to 2x the container */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.grouping-section, .ordering-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grouping-section label, .ordering-section label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+select:focus {
+  outline: none;
+}
+
+.dropdown-header:hover {
+  background-color: #f0f0f0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .dropdown-container {
+    padding: 8px;
+  }
+
+  .dropdown-header {
+    padding: 8px;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .dropdown-content {
+    width: 100%; /* Make the dropdown content take full width on small screens */
+  }
+}

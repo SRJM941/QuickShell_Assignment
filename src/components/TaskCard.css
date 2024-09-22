@@ -1,0 +1,78 @@
+.task-card {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  width: 98%;
+  height: 120px;
+  transition: box-shadow 0.2s;
+}
+
+.task-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-id {
+  margin-top: 2px;
+  margin-bottom: 5px; /* Space below ID */
+}
+
+.task-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-title {
+  display: flex; /* Align radio button and title horizontally */
+  align-items: flex-start; /* Align items to the start vertically */
+}
+
+.radio-title input[type="radio"] {
+  margin-right: 10px; /* Space between radio button and title */
+  align-self: flex-start; /* Ensure radio button aligns with the top of the title */
+}
+
+.task-title {
+  margin: 0; /* Remove margin to avoid extra space */
+  font-size: 1.1em;
+  font-weight: 00;
+}
+
+.ticket-details {
+  display: flex;
+  align-items: flex-end; /* Center logo and tags vertically */
+  justify-content: flex-start; /* Align items to the start */
+  margin-top: 10px; /* Space above details */
+  
+}
+
+.ticket-details img {
+  margin-right: 10px; /* Space between logo and tags */
+  width: 20px; /* Set logo width */
+  height: 20px; /* Set logo height */
+}
+
+.tags {
+  margin: 0; /* Remove margin for clean layout */
+  font-size: 0.9em; /* Adjust font size */
+  color: #6c757d; /* Lighter color for tags */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .task-card {
+    max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .task-title {
+    font-size: 1em; /* Slightly smaller title */
+  }
+
+  .tags {
+    font-size: 0.85em; /* Slightly smaller tags text */
+  }
+}

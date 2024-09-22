@@ -1,0 +1,7 @@
+# Node modules
+node_modules/
+
+# Other files or directories you want to ignore
+/dist
+/build
+/.env

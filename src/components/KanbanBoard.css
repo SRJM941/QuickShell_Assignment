@@ -1,0 +1,48 @@
+.kanban-board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #F4F5F9;
+  height: 100vh;
+}
+
+.kanban-column {
+  flex: 1 1 200px;
+  padding: 10px;
+  position: relative;
+}
+
+.column-header {
+  display: flex;
+  align-items: center; /* Ensure everything aligns vertically */
+  justify-content: space-between;
+  gap: 10px; /* Small gap between the items */
+  margin-bottom: 10px;
+}
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px; /* Small gap between the items */
+  margin-bottom: 10px;
+}
+
+.column-header h2 {
+  font-size: 1em;
+}
+
+.task-count {
+  margin-left: 0px; /* Small gap between group name and task count */
+  color: #666;
+}
+
+.header-logos {
+  display: flex;
+  gap: 10px; /* Small gap between the logos */
+}
+
+.header-logo {
+  width: 20px; /* Adjust the size of the logos */
+  height: 20px;
+}
